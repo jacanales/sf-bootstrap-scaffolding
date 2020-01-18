@@ -6,6 +6,9 @@ Link: [Installing Encore](https://symfony.com/doc/current/frontend/encore/instal
 composer require symfony/webpack-encore-bundle
 yarn install
 ```
+
+Link: [Setting up your project](https://symfony.com/doc/current/frontend/encore/simple-example.html)
+
 ## Install bootstrap
 Link: [Using Bootstrap CSS & JS](https://symfony.com/doc/current/frontend/encore/bootstrap.html)
 
