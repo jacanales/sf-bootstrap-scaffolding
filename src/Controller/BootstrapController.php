@@ -14,4 +14,12 @@ class BootstrapController extends AbstractController
     {
         return $this->render('bootstrap/login.html.twig');
     }
+
+    /**
+     * @Route("/bootstrap/bare", name="bootstrap_bare")
+     */
+    public function bare()
+    {
+        return $this->render('bootstrap/bare.html.twig');
+    }
 }
