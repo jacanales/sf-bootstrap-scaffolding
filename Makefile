@@ -15,3 +15,8 @@ help:
 %:
 	@echo 'Invalid target. type `make help` to get a list of available targets'
 	@exit 1
+
+prepare-frontend: ## Install encore and bootstrap
+	composer require symfony/webpack-encore-bundle
+	yarn install
+	yarn add bootstrap --dev
