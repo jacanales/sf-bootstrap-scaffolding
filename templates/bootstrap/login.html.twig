@@ -11,14 +11,11 @@
 {% endblock %}
 
 {% block footer %}
-<!-- Footer -->
-<footer class="page-footer font-small blue">
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">
-    Source: <a href="https://startbootstrap.com/snippets/login/" target="_blank">https://startbootstrap.com/snippets/login/</a>
-  </div>
-  <!-- Copyright -->
-</footer>
+  {% embed "bootstrap/sticky-footer.html.twig" %}
+      {% block footer_content %}
+      Source: <a href="https://startbootstrap.com/snippets/login/" target="_blank">https://startbootstrap.com/snippets/login/</a>
+      {% endblock %}
+  {% endembed %}
 {% endblock %}
 
 {% block body %}
