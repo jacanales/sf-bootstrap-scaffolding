@@ -3,7 +3,6 @@
 ## Install Encore
 
 Link: [Installing Encore](https://symfony.com/doc/current/frontend/encore/installation.html)
-
 ```bash
 composer require symfony/webpack-encore-bundle
 yarn install
@@ -14,7 +13,6 @@ Link: [Setting up your project](https://symfony.com/doc/current/frontend/encore/
 ## Install bootstrap
 
 Link: [Using Bootstrap CSS & JS](https://symfony.com/doc/current/frontend/encore/bootstrap.html)
-
 ```bash
 yarn add bootstrap --dev
 ```
@@ -22,7 +20,13 @@ yarn add bootstrap --dev
 ## Generate assets
 
 Generate assets with yarn
-
 ```bash
 yarn run encore dev
+```
+
+## Run app
+
+Serve symfony app
+```bash
+symfony serve
 ```
