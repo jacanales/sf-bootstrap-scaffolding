@@ -1,5 +1,10 @@
 # Scaffolding project to use Bootstrap with Symfony
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jacanales_sf-bootstrap-scaffolding&metric=alert_status)](https://sonarcloud.io/dashboard?id=jacanales_sf-bootstrap-scaffolding)
+
+
+# 
+
 ## Install Encore
 
 Link: [Installing Encore](https://symfony.com/doc/current/frontend/encore/installation.html)
