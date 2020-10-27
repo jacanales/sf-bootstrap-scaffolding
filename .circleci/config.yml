@@ -7,6 +7,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Install composer
+          command: wget https://raw.githubusercontent.com/composer/getcomposer.org/76a7060ccb93902cd7576b67264ad91c8a2700e2/web/installer -O - -q | php -- --quiet
+      - run:
           name: Install dependencies and build project
           command: composer install
       - sonarcloud/scan
