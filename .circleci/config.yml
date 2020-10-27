@@ -7,6 +7,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Update composer
+          command: sudo composer self-update --2
+      - run:
           name: Install dependencies and build project
           command: composer install
       - sonarcloud/scan
