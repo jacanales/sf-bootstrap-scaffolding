@@ -1,10 +1,10 @@
 name: Check Conventional Commits
 on: pull_request
 jobs:
-  commits:
+  validate-commits:
     runs-on: ubuntu-latest
     steps:
-      - name: hqprs
-        uses: Namchee/conventional-pr@v0.2.1
-        with:
-          access_token: ${{ secrets.ACTION_COMMITS }}
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v1
+      - name: Commitsar check
+        uses: aevea/commitsar@v0.15.0
