@@ -3,9 +3,6 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jacanales_sf-bootstrap-scaffolding&metric=alert_status)](https://sonarcloud.io/dashboard?id=jacanales_sf-bootstrap-scaffolding) 
 [![CircleCI](https://circleci.com/gh/jacanales/sf-bootstrap-scaffolding.svg?style=svg)](https://circleci.com/gh/jacanales/sf-bootstrap-scaffolding)
 
-
-# 
-
 ## Install Encore
 
 Link: [Installing Encore](https://symfony.com/doc/current/frontend/encore/installation.html)
