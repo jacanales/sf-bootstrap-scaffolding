@@ -1,15 +1,20 @@
 pull_request_rules:
   - name: Automatic merge on dependabot requests
     conditions:
-      - "author=dependabot-preview[bot]"
+      - "author=dependabot[bot]"
       - "base=master"
+      - check-success=Build and test
+      - check-success=PHP 7.4 Test on ubuntu-latest
+      - check-success=SonarCloud Code Analysis
     actions:
       merge:
         method: merge
   - name: Automatic merge on approval
     conditions:
       - "#approved-reviews-by>=1"
+      - check-success=Build and test
+      - check-success=PHP 7.4 Test on ubuntu-latest
+      - check-success=SonarCloud Code Analysis
     actions:
       merge:
         method: merge
-
