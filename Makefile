@@ -20,5 +20,5 @@ prepare-frontend: ## Install encore and bootstrap
 	composer require symfony/webpack-encore-bundle
 	yarn install
 	yarn add bootstrap --dev
-	yarn add sass-loader node-sass --dev
+	yarn add sass-loader node-sass@4.14.1 --dev
 	yarn add jquery popper.js
