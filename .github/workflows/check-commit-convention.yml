@@ -1,5 +1,8 @@
 name: Check Conventional Commits
-on: pull_request
+on:
+  pull_request:
+    branches:
+      - !mergify/jacanales/config-update
 jobs:
   validate-commits:
     runs-on: ubuntu-latest
