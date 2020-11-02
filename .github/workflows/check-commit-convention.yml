@@ -3,6 +3,7 @@ on:
   pull_request:
     branches:
       - !mergify/jacanales/config-update
+      - !dependabot/**
 jobs:
   validate-commits:
     runs-on: ubuntu-latest
