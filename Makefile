@@ -22,3 +22,8 @@ prepare-frontend: ## Install encore and bootstrap
 	yarn add bootstrap --dev
 	yarn add sass-loader node-sass@4.14.1 --dev
 	yarn add jquery popper.js
+
+install-hooks:
+	yarn add @commitlint/{config-conventional,cli} --dev
+	yarn add husky@next --dev
+	yarn husky install
