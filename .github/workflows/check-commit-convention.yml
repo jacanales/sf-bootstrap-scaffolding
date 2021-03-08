@@ -11,4 +11,4 @@ jobs:
       - name: Check out code into the Go module directory
         uses: actions/checkout@v2.3.4
       - name: Commitsar check
-        uses: aevea/commitsar@v0.15.0
+        uses: aevea/commitsar@v0.16.0
