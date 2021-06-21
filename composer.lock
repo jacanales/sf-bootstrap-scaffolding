@@ -4637,16 +4637,16 @@
         },
         {
             "name": "symfony/password-hasher",
-            "version": "v5.3.0",
+            "version": "v5.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/password-hasher.git",
-                "reference": "d487faef0347d5351d3e361e123a73496595509f"
+                "reference": "02320f981e26fdbeeaae575911e0afa7bdcae988"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/password-hasher/zipball/d487faef0347d5351d3e361e123a73496595509f",
-                "reference": "d487faef0347d5351d3e361e123a73496595509f",
+                "url": "https://api.github.com/repos/symfony/password-hasher/zipball/02320f981e26fdbeeaae575911e0afa7bdcae988",
+                "reference": "02320f981e26fdbeeaae575911e0afa7bdcae988",
                 "shasum": ""
             },
             "require": {
@@ -4703,7 +4703,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-26T17:43:10+00:00"
+            "time": "2021-06-11T14:36:11+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
@@ -5721,16 +5721,16 @@
         },
         {
             "name": "symfony/security-bundle",
-            "version": "v5.3.0",
+            "version": "v5.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-bundle.git",
-                "reference": "c822d1ca612da832daad4be883bdc50f03127ad8"
+                "reference": "971ff372d07aacc1c92d1efd0e80947f99323483"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-bundle/zipball/c822d1ca612da832daad4be883bdc50f03127ad8",
-                "reference": "c822d1ca612da832daad4be883bdc50f03127ad8",
+                "url": "https://api.github.com/repos/symfony/security-bundle/zipball/971ff372d07aacc1c92d1efd0e80947f99323483",
+                "reference": "971ff372d07aacc1c92d1efd0e80947f99323483",
                 "shasum": ""
             },
             "require": {
@@ -5747,7 +5747,7 @@
                 "symfony/security-core": "^5.3",
                 "symfony/security-csrf": "^4.4|^5.0",
                 "symfony/security-guard": "^5.3",
-                "symfony/security-http": "^5.3"
+                "symfony/security-http": "^5.3.2"
             },
             "conflict": {
                 "symfony/browser-kit": "<4.4",
@@ -5816,20 +5816,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-26T17:43:10+00:00"
+            "time": "2021-06-17T13:35:32+00:00"
         },
         {
             "name": "symfony/security-core",
-            "version": "v5.3.0",
+            "version": "v5.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
-                "reference": "cb23eaff3fe09ba81b5c25ffe25c1c5b9b1cdfc5"
+                "reference": "dc44d2a4275345621266356f6cb7ef6e0864c3fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-core/zipball/cb23eaff3fe09ba81b5c25ffe25c1c5b9b1cdfc5",
-                "reference": "cb23eaff3fe09ba81b5c25ffe25c1c5b9b1cdfc5",
+                "url": "https://api.github.com/repos/symfony/security-core/zipball/dc44d2a4275345621266356f6cb7ef6e0864c3fa",
+                "reference": "dc44d2a4275345621266356f6cb7ef6e0864c3fa",
                 "shasum": ""
             },
             "require": {
@@ -5906,7 +5906,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-26T17:43:10+00:00"
+            "time": "2021-06-15T17:42:09+00:00"
         },
         {
             "name": "symfony/security-csrf",
@@ -6042,16 +6042,16 @@
         },
         {
             "name": "symfony/security-http",
-            "version": "v5.3.0",
+            "version": "v5.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-http.git",
-                "reference": "6bbbf9c7ed01646937512122fc453976b6fb5161"
+                "reference": "6bf4c31219773a558b019ee12e54572174ff8129"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-http/zipball/6bbbf9c7ed01646937512122fc453976b6fb5161",
-                "reference": "6bbbf9c7ed01646937512122fc453976b6fb5161",
+                "url": "https://api.github.com/repos/symfony/security-http/zipball/6bf4c31219773a558b019ee12e54572174ff8129",
+                "reference": "6bf4c31219773a558b019ee12e54572174ff8129",
                 "shasum": ""
             },
             "require": {
@@ -6120,7 +6120,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-26T17:43:10+00:00"
+            "time": "2021-06-17T13:35:32+00:00"
         },
         {
             "name": "symfony/serializer",
@@ -8786,6 +8786,7 @@
                     "type": "github"
                 }
             ],
+            "abandoned": true,
             "time": "2020-11-30T07:30:19+00:00"
         },
         {
