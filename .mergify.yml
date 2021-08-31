@@ -2,7 +2,7 @@ pull_request_rules:
   - name: Automatic merge on dependabot requests
     conditions:
       - "author=dependabot[bot]"
-      - "base=master"
+      - "base=main"
       - check-success=Build and test
       - check-success=PHP 7.4 Test on ubuntu-latest
       - check-success=SonarCloud Code Analysis
@@ -12,7 +12,7 @@ pull_request_rules:
   - name: Automatic merge on mergify requests
     conditions:
       
-      - "base=master"
+      - "base=main"
       - check-success=Build and test
       - check-success=PHP 7.4 Test on ubuntu-latest
       - check-success=SonarCloud Code Analysis
