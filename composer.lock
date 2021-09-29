@@ -4507,7 +4507,7 @@
         },
         {
             "name": "symfony/notifier",
-            "version": "v5.3.4",
+            "version": "v5.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/notifier.git",
@@ -4581,7 +4581,7 @@
                 "notifier"
             ],
             "support": {
-                "source": "https://github.com/symfony/notifier/tree/v5.3.4"
+                "source": "https://github.com/symfony/notifier/tree/v5.3.9"
             },
             "funding": [
                 {
