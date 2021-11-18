@@ -8,7 +8,7 @@
     "sass-loader": "^12.3.0",
     "webpack-notifier": "^1.14.1",
     "@commitlint/cli": "^15.0.0",
-    "@commitlint/config-conventional": "^14.1.0",
+    "@commitlint/config-conventional": "^15.0.0",
     "husky": "^7.0.4",
     "pinst": "^2.1.6"
   },
