@@ -4,7 +4,7 @@ pull_request_rules:
       - "author=dependabot[bot]"
       - "base=main"
       - check-success=Build and test
-      - check-success=PHP 7.4 Test on ubuntu-latest
+      - check-success=PHP 8.0 Test on ubuntu-latest
       - check-success=SonarCloud Code Analysis
     actions:
       merge:
@@ -14,7 +14,7 @@ pull_request_rules:
       
       - "base=main"
       - check-success=Build and test
-      - check-success=PHP 7.4 Test on ubuntu-latest
+      - check-success=PHP 8.0 Test on ubuntu-latest
       - check-success=SonarCloud Code Analysis
       - "head~=^mergify/"
     actions:
@@ -25,7 +25,7 @@ pull_request_rules:
     conditions:
       - "#approved-reviews-by>=1"
       - check-success=Build and test
-      - check-success=PHP 7.4 Test on ubuntu-latest
+      - check-success=PHP 8.0 Test on ubuntu-latest
       - check-success=SonarCloud Code Analysis
     actions:
       merge:
