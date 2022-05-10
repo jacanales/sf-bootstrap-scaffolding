@@ -9,7 +9,7 @@
     "webpack-notifier": "^1.15.0",
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "pinst": "^3.0.0"
   },
   "license": "UNLICENSED",
