@@ -7,7 +7,7 @@
     "regenerator-runtime": "^0.13.9",
     "sass-loader": "^13.0.2",
     "webpack-notifier": "^1.15.0",
-    "@commitlint/cli": "^17.1.1",
+    "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "husky": "^8.0.1",
     "pinst": "^3.0.0"
