@@ -3508,16 +3508,16 @@
         },
         {
             "name": "symfony/form",
-            "version": "v6.0.12",
+            "version": "v6.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/form.git",
-                "reference": "0fc271db683861b56b9320c5b08c338b1001ccdd"
+                "reference": "3cfc51bab24f3afd2757b615b150a3d337c64d8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/form/zipball/0fc271db683861b56b9320c5b08c338b1001ccdd",
-                "reference": "0fc271db683861b56b9320c5b08c338b1001ccdd",
+                "url": "https://api.github.com/repos/symfony/form/zipball/3cfc51bab24f3afd2757b615b150a3d337c64d8f",
+                "reference": "3cfc51bab24f3afd2757b615b150a3d337c64d8f",
                 "shasum": ""
             },
             "require": {
@@ -3590,7 +3590,7 @@
             "description": "Allows to easily create, process and reuse HTML forms",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/form/tree/v6.0.12"
+                "source": "https://github.com/symfony/form/tree/v6.0.13"
             },
             "funding": [
                 {
@@ -3606,7 +3606,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-09T09:43:52+00:00"
+            "time": "2022-09-09T09:33:56+00:00"
         },
         {
             "name": "symfony/framework-bundle",
@@ -6274,16 +6274,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v6.0.12",
+            "version": "v6.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "3a975ba1a1508ad97df45f4590f55b7cc4c1a0a0"
+                "reference": "65e99fb179e7241606377e4042cd2161f3dd1c05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/3a975ba1a1508ad97df45f4590f55b7cc4c1a0a0",
-                "reference": "3a975ba1a1508ad97df45f4590f55b7cc4c1a0a0",
+                "url": "https://api.github.com/repos/symfony/string/zipball/65e99fb179e7241606377e4042cd2161f3dd1c05",
+                "reference": "65e99fb179e7241606377e4042cd2161f3dd1c05",
                 "shasum": ""
             },
             "require": {
@@ -6339,7 +6339,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v6.0.12"
+                "source": "https://github.com/symfony/string/tree/v6.0.13"
             },
             "funding": [
                 {
@@ -6355,7 +6355,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-12T18:05:20+00:00"
+            "time": "2022-09-02T08:05:03+00:00"
         },
         {
             "name": "symfony/translation",
