@@ -5441,16 +5441,16 @@
         },
         {
             "name": "symfony/property-info",
-            "version": "v6.0.11",
+            "version": "v6.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-info.git",
-                "reference": "518f172491b9c09afd5d963f783909b80c4b0308"
+                "reference": "bf2c77c5b5813b6cf5cc16df8dd5096151a8646c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/property-info/zipball/518f172491b9c09afd5d963f783909b80c4b0308",
-                "reference": "518f172491b9c09afd5d963f783909b80c4b0308",
+                "url": "https://api.github.com/repos/symfony/property-info/zipball/bf2c77c5b5813b6cf5cc16df8dd5096151a8646c",
+                "reference": "bf2c77c5b5813b6cf5cc16df8dd5096151a8646c",
                 "shasum": ""
             },
             "require": {
@@ -5510,7 +5510,7 @@
                 "validator"
             ],
             "support": {
-                "source": "https://github.com/symfony/property-info/tree/v6.0.11"
+                "source": "https://github.com/symfony/property-info/tree/v6.0.14"
             },
             "funding": [
                 {
@@ -5526,7 +5526,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-19T08:33:44+00:00"
+            "time": "2022-10-07T08:02:12+00:00"
         },
         {
             "name": "symfony/proxy-manager-bridge",
@@ -6274,16 +6274,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v6.0.13",
+            "version": "v6.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "65e99fb179e7241606377e4042cd2161f3dd1c05"
+                "reference": "3db7da820a6e4a584b714b3933c34c6a7db4d86c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/65e99fb179e7241606377e4042cd2161f3dd1c05",
-                "reference": "65e99fb179e7241606377e4042cd2161f3dd1c05",
+                "url": "https://api.github.com/repos/symfony/string/zipball/3db7da820a6e4a584b714b3933c34c6a7db4d86c",
+                "reference": "3db7da820a6e4a584b714b3933c34c6a7db4d86c",
                 "shasum": ""
             },
             "require": {
@@ -6339,7 +6339,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v6.0.13"
+                "source": "https://github.com/symfony/string/tree/v6.0.14"
             },
             "funding": [
                 {
@@ -6355,7 +6355,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-02T08:05:03+00:00"
+            "time": "2022-10-10T09:34:08+00:00"
         },
         {
             "name": "symfony/translation",
