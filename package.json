@@ -4,7 +4,7 @@
     "bootstrap": "^4.6.2",
     "core-js": "^3.26.1",
     "node-sass": "8.0.0",
-    "regenerator-runtime": "^0.13.10",
+    "regenerator-runtime": "^0.13.11",
     "sass-loader": "^13.2.0",
     "webpack-notifier": "^1.15.0",
     "@commitlint/cli": "^17.2.0",
