@@ -3,6 +3,14 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jacanales_sf-bootstrap-scaffolding&metric=alert_status)](https://sonarcloud.io/dashboard?id=jacanales_sf-bootstrap-scaffolding) 
 [![CircleCI](https://circleci.com/gh/jacanales/sf-bootstrap-scaffolding.svg?style=svg)](https://circleci.com/gh/jacanales/sf-bootstrap-scaffolding)
 
+## Install Symfony CLI
+Link: [Download Symfony](https://symfony.com/download)
+```bash
+wget https://get.symfony.com/cli/installer -O - | bash
+mv ~/.symfony5/bin/symfony /usr/local/bin/symfony
+
+```
+
 ## Install Encore
 
 Link: [Installing Encore](https://symfony.com/doc/current/frontend/encore/installation.html)
@@ -28,6 +36,10 @@ yarn run encore dev
 ```
 
 ## Run app
+[Optional] Install support for TLS:
+```bash
+symfony server:ca:install
+```
 
 Serve symfony app
 ```bash
