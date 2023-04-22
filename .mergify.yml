@@ -3,19 +3,20 @@ pull_request_rules:
     conditions:
       - "author=dependabot[bot]"
       - "base=main"
-      - check-success=[NPM] Build and test
+      - check-success=NPM | Build and test
       - check-success=PHP 8.2 Test on ubuntu-latest
       - check-success=SonarCloud Code Analysis
+      - "check-success=ci/circleci: build"
     actions:
       merge:
         method: merge
   - name: Automatic merge on mergify requests
     conditions:
-      
       - "base=main"
-      - check-success=[NPM] Build and test
+      - check-success=NPM | Build and test
       - check-success=PHP 8.2 Test on ubuntu-latest
       - check-success=SonarCloud Code Analysis
+      - "check-success=ci/circleci: build"
       - "head~=^mergify/"
     actions:
       merge:
@@ -24,9 +25,10 @@ pull_request_rules:
   - name: Automatic merge on approval
     conditions:
       - "#approved-reviews-by>=1"
-      - check-success=[NPM] Build and test
+      - check-success=NPM | Build and test
       - check-success=PHP 8.2 Test on ubuntu-latest
       - check-success=SonarCloud Code Analysis
+      - "check-success=ci/circleci: build"
     actions:
       merge:
         method: merge

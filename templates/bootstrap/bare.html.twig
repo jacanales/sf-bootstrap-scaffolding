@@ -7,14 +7,16 @@
 {% endblock %}
 
 {% block javascripts %}
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
+          integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw="
+          crossorigin="anonymous"></script>
   {{ encore_entry_script_tags('bare') }}
 {% endblock %}
 
 {% block footer %}
   {% embed "bootstrap/sticky-footer.html.twig" %}
       {% block footer_content %}
-      Source: <a href="https://startbootstrap.com/templates/bare/" target="_blank">https://startbootstrap.com/templates/bare/</a>
+      Source: <a href="https://startbootstrap.com/templates/bare/" target="_blank" rel="noopener noreferrer">https://startbootstrap.com/templates/bare/</a>
       {% endblock %}
   {% endembed %}
 {% endblock %}
