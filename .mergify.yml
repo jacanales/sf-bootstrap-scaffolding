@@ -3,8 +3,8 @@ pull_request_rules:
     conditions:
       - "author=dependabot[bot]"
       - "base=main"
-      - check-success=Build and test
-      - check-success=PHP 8.0 Test on ubuntu-latest
+      - check-success=[NPM] Build and test
+      - check-success=PHP 8.2 Test on ubuntu-latest
       - check-success=SonarCloud Code Analysis
     actions:
       merge:
@@ -13,8 +13,8 @@ pull_request_rules:
     conditions:
       
       - "base=main"
-      - check-success=Build and test
-      - check-success=PHP 8.0 Test on ubuntu-latest
+      - check-success=[NPM] Build and test
+      - check-success=PHP 8.2 Test on ubuntu-latest
       - check-success=SonarCloud Code Analysis
       - "head~=^mergify/"
     actions:
@@ -24,8 +24,8 @@ pull_request_rules:
   - name: Automatic merge on approval
     conditions:
       - "#approved-reviews-by>=1"
-      - check-success=Build and test
-      - check-success=PHP 8.0 Test on ubuntu-latest
+      - check-success=[NPM] Build and test
+      - check-success=PHP 8.2 Test on ubuntu-latest
       - check-success=SonarCloud Code Analysis
     actions:
       merge:
