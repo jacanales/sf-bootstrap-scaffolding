@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@commitlint/cli": "^18.4.4",
+    "@commitlint/cli": "^19.0.3",
     "@commitlint/config-conventional": "^18.4.4",
     "@symfony/webpack-encore": "^3.1.0",
     "bootstrap": "^5.3.2",
