@@ -6471,16 +6471,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v6.4.2",
+            "version": "v6.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "a2ab2ec1a462e53016de8e8d5e8912bfd62ea681"
+                "reference": "bce6a5a78e94566641b2594d17e48b0da3184a8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/a2ab2ec1a462e53016de8e8d5e8912bfd62ea681",
-                "reference": "a2ab2ec1a462e53016de8e8d5e8912bfd62ea681",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/bce6a5a78e94566641b2594d17e48b0da3184a8e",
+                "reference": "bce6a5a78e94566641b2594d17e48b0da3184a8e",
                 "shasum": ""
             },
             "require": {
@@ -6503,7 +6503,7 @@
                 "symfony/translation-implementation": "2.3|3.0"
             },
             "require-dev": {
-                "nikic/php-parser": "^4.13",
+                "nikic/php-parser": "^4.18|^5.0",
                 "psr/log": "^1|^2|^3",
                 "symfony/config": "^5.4|^6.0|^7.0",
                 "symfony/console": "^5.4|^6.0|^7.0",
@@ -6546,7 +6546,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v6.4.2"
+                "source": "https://github.com/symfony/translation/tree/v6.4.4"
             },
             "funding": [
                 {
@@ -6562,7 +6562,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-18T09:25:29+00:00"
+            "time": "2024-02-20T13:16:58+00:00"
         },
         {
             "name": "symfony/translation-contracts",
