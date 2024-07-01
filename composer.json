@@ -20,7 +20,7 @@
         "symfony/form": "^6.0",
         "symfony/framework-bundle": "^6.0",
         "symfony/http-client": "^7.1",
-        "symfony/intl": "^6.0",
+        "symfony/intl": "^7.1",
         "symfony/mailer": "^6.0",
         "symfony/monolog-bundle": "^3.8",
         "symfony/notifier": "^7.1",
